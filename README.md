@@ -1,4 +1,4 @@
-# 🧠 HUNTER — Emotion-Aware AI Tutor
+#  Emotion-Aware AI Tutor
 
 > India's first hyper-local, emotion-aware, multilingual AI tutoring platform built for rural students on low-end Android phones.
 
