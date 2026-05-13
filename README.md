@@ -190,7 +190,7 @@ HUNTER adapts its teaching style in real-time based on student emotions detected
 ### Install & Run
 
 ```bash
-cd hunter-app
+
 npm install
 npm run dev
 ```
@@ -433,4 +433,4 @@ MIT
 
 ---
 
-*Built for rural India. Made with 💜 by HUNTER Team.*
+*Built for rural India. Made with 💜 by HAUNTER Team.*
