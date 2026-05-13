@@ -24,24 +24,25 @@
 - [API Configuration](#api-configuration)
 
 ---
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/51a83449-8296-40e6-b2c1-d1abdf7c64eb" />
 
 ## Overview
 
 HUNTER adapts its teaching style in real-time based on student emotions detected through voice patterns and text analysis. Designed for Tier-2/3 India — works on ₹5,000 phones, 2G connections, and supports 6 Indian languages.
 
 **Key Differentiators:**
-- 🎤 Voice-based stress detection (no camera needed)
-- 🌶️ Tanglish (Tamil+English) mentor mode with village-life metaphors
-- 📍 District-level job radar mapped to skills learned
-- 🚀 AI Dream Project Generator personalized to local industries
-- 💬 WhatsApp-native lesson UI that feels familiar
-- 🌐 Full multilingual support with speech recognition & TTS
+- Voice-based stress detection (no camera needed)
+-  Tanglish (Tamil+English) mentor mode with village-life metaphors
+-  District-level job radar mapped to skills learned
+-  AI Dream Project Generator personalized to local industries
+-  WhatsApp-native lesson UI that feels familiar
+-  Full multilingual support with speech recognition & TTS
 
 ---
 
 ## Features
 
-### 1. 🔐 Secure Authentication
+### 1. Secure Authentication
 - Email/password login and registration
 - SHA-256 hashed passwords stored locally via Web Crypto API
 - 7-day session persistence with auto-expiry
@@ -54,14 +55,14 @@ HUNTER adapts its teaching style in real-time based on student emotions detected
 - Real-time stress percentage meter
 - Graceful fallback for unsupported browsers
 
-### 3. 🧬 Skill DNA Card
+### 3.  Skill DNA Card
 - SVG hexagonal radar chart with 6 axes (Speed, Accuracy, Confidence, Creativity, Consistency, Resilience)
 - Unique color gradient based on dominant emotion
 - Holographic shine animation
 - Shareable via WhatsApp/LinkedIn using Web Share API
 - Unique badge ID per student
 
-### 4. 🌶️ Tanglish Mentor Mode
+### 4.  Tanglish Mentor Mode
 - 5 Tamil-English metaphors mapping CS concepts to village life:
   - API → Swiggy delivery 🛵
   - For-loop → Tiffin box route 📦
@@ -71,21 +72,21 @@ HUNTER adapts its teaching style in real-time based on student emotions detected
 - Auto-activates when confusion/stress detected
 - Claude API prompt enhanced for Tanglish responses
 
-### 5. 📊 Guardian EQ Live Dashboard
+### 5.  Guardian EQ Live Dashboard
 - SVG river-flow chart — width and color change with emotions
 - Wide/blue (calm) → narrow/red (stressed) → flat/gray (bored)
 - Topic markers along timeline
 - Summary stats: confidence %, stress peaks, session duration
 - Export for guardians/educators
 
-### 6. 🔥 Confusion Heatmap
+### 6.  Confusion Heatmap
 - Per-topic color-coded struggle bars
 - AI-generated educator insights:
   - "API caused the most confusion — needs re-teaching"
   - "For-loop was clearly understood — move to advanced"
 - Exportable report for teachers and parents
 
-### 7. 🏆 Boss Level Challenges
+### 7.  Boss Level Challenges
 - 2 timed real-world challenges:
   - Boss 1: "Build a BMI Calculator" (5 min) → 🏗️ Logic Architect badge
   - Boss 2: "Write a Tanglish Tea-Order Bot Prompt" (3 min) → 🧙 Prompt Wizard badge
@@ -93,14 +94,14 @@ HUNTER adapts its teaching style in real-time based on student emotions detected
 - Claude API evaluation with JSON scoring
 - NFT-style badges with holographic animation
 
-### 8. ⚔️ Peer Duel Mode
+### 8.  Peer Duel Mode
 - vs Bot (simulated opponent) or vs Friend (BroadcastChannel)
 - 5 rounds, 30s per question
 - Split-screen scoreboard with VS badge
 - Cooperative hint at 15s if both players struggle
 - Rematch option with score tracking
 
-### 9. 💬 WhatsApp-Native Lesson UI
+### 9. WhatsApp-Native Lesson UI
 - Full WhatsApp-style chat interface
 - Green header with online status
 - Chat bubbles with timestamps and read receipts (✓✓)
@@ -108,14 +109,14 @@ HUNTER adapts its teaching style in real-time based on student emotions detected
 - Dark wallpaper pattern
 - Toggle between card view ↔ chat view on any topic
 
-### 10. 📍 District-Level Job Radar
+### 10.  District-Level Job Radar
 - 10 Tamil Nadu districts: Coimbatore, Chennai, Madurai, Tirupur, Salem, Trichy, Erode, Thanjavur, Vellore, Tirunelveli
 - 40+ real MSME/MNC/Startup/Govt jobs with salaries
 - Skill-matched to topics the student has mastered
 - Search and filter by district
 - Match percentage bar for each job
 
-### 11. 🚀 Dream Project Generator
+### 11.  Dream Project Generator
 - Student types their interest ("I care about textiles")
 - Claude AI generates a full project brief:
   - Title, tagline, problem statement
@@ -124,14 +125,14 @@ HUNTER adapts its teaching style in real-time based on student emotions detected
 - Fallback seeds for 10 industries (textile, agriculture, healthcare, etc.)
 - Shareable project brief via clipboard
 
-### 12. 🌐 Multilingual Support
+### 12.  Multilingual Support
 - 6 languages: English, Tamil (தமிழ்), Hindi (हिन्दी), Telugu (తెలుగు), Kannada (ಕನ್ನಡ), Malayalam (മലയാളം)
 - UI strings translated for all languages
 - Web Speech API recognition adapts to selected language
 - Text-to-Speech reads AI responses in chosen language
 - Claude API prompt instructs responses in preferred language
 
-### 13. 🎙️ Platform-Wide Voice Control
+### 13.  Platform-Wide Voice Control
 - Global voice command system across all tabs
 - Navigation: "Go to Duel", "Go to Dashboard", "Open Profile"
 - Lesson: "Submit", "Next Topic", "Retry"
@@ -140,7 +141,7 @@ HUNTER adapts its teaching style in real-time based on student emotions detected
 - Floating mic button with last-command display
 - Voice commands help modal
 
-### 14. 🔊 Text-to-Speech (TTS)
+### 14.  Text-to-Speech (TTS)
 - Toggle TTS on/off from any screen
 - AI responses spoken aloud in selected language
 - Uses Web Speech Synthesis API
